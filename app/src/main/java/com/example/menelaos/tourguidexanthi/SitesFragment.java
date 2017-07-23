@@ -9,11 +9,8 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * {@link Fragment} that displays a list of attractions.
- */
+// {@link Fragment} that displays a list of attractions.
 public class SitesFragment extends Fragment {
-
 
     public SitesFragment() {
         // Required empty public constructor
@@ -53,5 +50,3 @@ public class SitesFragment extends Fragment {
         return rootView;
     }
 }
-
-

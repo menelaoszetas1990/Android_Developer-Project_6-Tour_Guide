@@ -9,11 +9,8 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * {@link Fragment} that displays a list of attractions.
- */
+// {@link Fragment} that displays a list of attractions.
 public class NightLifeFragment extends Fragment {
-
 
     public NightLifeFragment() {
         // Required empty public constructor
@@ -26,8 +23,14 @@ public class NightLifeFragment extends Fragment {
 
         // Create a list of attractions
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction(R.string.food_palaia_poli_title, R.string.food_palaia_poli_description,
-                R.drawable.food_palaia_polh, R.string.high_cost));
+        attractions.add(new Attraction(R.string.night_life_kivernio_title, R.string.night_life_kivernio_description,
+                R.drawable.night_life_kivernio, R.string.high_cost));
+        attractions.add(new Attraction(R.string.night_life_my_club_title, R.string.night_life_my_club_description,
+                R.drawable.night_life_my_club, R.string.high_cost));
+        attractions.add(new Attraction(R.string.night_life_dili_dili_title, R.string.night_life_dili_dili_description,
+                R.drawable.night_life_dili_dili, R.string.low_cost));
+        attractions.add(new Attraction(R.string.night_life_Chokolata_title, R.string.night_life_Chokolata_description,
+                R.drawable.night_life_chocolata, R.string.low_cost));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Attraction}s. The
         // adapter knows how to create list items for each item in the list.

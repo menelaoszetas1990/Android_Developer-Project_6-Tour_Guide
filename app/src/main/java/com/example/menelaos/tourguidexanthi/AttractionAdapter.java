@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import java.util.ArrayList;
 
 public class AttractionAdapter extends ArrayAdapter<Attraction> {
@@ -17,7 +18,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
     /**
      * Create a new {@link AttractionAdapter} object.
      *
-     * @param context is the current context (i.e. Activity) that the adapter is being created in.
+     * @param context     is the current context (i.e. Activity) that the adapter is being created in.
      * @param attractions is the list of {@link Attraction}s to be displayed.
      */
     public AttractionAdapter(Context context, ArrayList<Attraction> attractions) {
@@ -50,32 +51,27 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         // Find the ImageView in the attraction_list_item.xml layout with the ID image.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        // Check if an image is provided for this attraction or not
-        if (currentAttraction.hasImage()) {
-            // If an image is available, display the provided image based on the resource ID
-            imageView.setImageResource(currentAttraction.getImageResourceId());
-            // Make sure the view is visible
-            imageView.setVisibility(View.VISIBLE);
-        } else {
-            // Otherwise hide the ImageView (set visibility to GONE)
-            imageView.setVisibility(View.GONE);
-        }
+        // Get the image from the current Attraction object and set this image on
+        // the Attraction ImageView.
+        imageView.setImageResource(currentAttraction.getImageResourceId());
 
         // Find the TextView in the attraction_list_item.xml layout with the ID description.
         TextView costTextView = (TextView) listItemView.findViewById(R.id.cost);
-        // Check if an image is provided for this attraction or not
+        // Check if a cost is provided for this attraction or not
         if (currentAttraction.hasCost()) {
-            // If an image is available, display the provided image based on the resource ID
+            // If a cost is available, display it
             costTextView.setText(currentAttraction.getCostId());
             // Make sure the view is visible
             costTextView.setVisibility(View.VISIBLE);
         } else {
-            // Otherwise hide the ImageView (set visibility to GONE)
+            // Otherwise hide it
             costTextView.setVisibility(View.GONE);
         }
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
         // the ListView.
         return listItemView;
+
     }
+
 }

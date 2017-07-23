@@ -7,9 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    /**
-     * Context of the app
-     */
+    //Context of the app
     private Context mContext;
 
     /**
@@ -20,7 +18,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      *                across swipes.
      */
     public CategoryAdapter(Context context, FragmentManager fm) {
-        super ( fm );
+        super(fm);
         mContext = context;
 
     }
@@ -31,13 +29,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new SitesFragment ();
+            return new SitesFragment();
         } else if (position == 1) {
             return new FeastsFragment();
         } else if (position == 2) {
-            return new FoodFragment ();
+            return new FoodFragment();
         } else {
-            return new NightLifeFragment ();
+            return new NightLifeFragment();
         }
     }
 
@@ -52,18 +50,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString ( R.string.tab_attraction );
+            return mContext.getString(R.string.tab_attraction);
         } else if (position == 1) {
-            return mContext.getString ( R.string.tab_monuments );
+            return mContext.getString(R.string.tab_monuments);
         } else if (position == 2) {
-            return mContext.getString ( R.string.tab_food );
+            return mContext.getString(R.string.tab_food);
         } else {
-            return mContext.getString ( R.string.tab_night_life );
+            return mContext.getString(R.string.tab_night_life);
         }
     }
 }
-
-
-
-
-

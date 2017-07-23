@@ -9,11 +9,8 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-        /**
-        * {@link Fragment} that displays a list of attractions.
-        */
+// {@link Fragment} that displays a list of attractions.
 public class FoodFragment extends Fragment {
-
 
     public FoodFragment() {
         // Required empty public constructor
@@ -36,7 +33,6 @@ public class FoodFragment extends Fragment {
                 R.drawable.food_nea_ellas, R.string.high_cost));
         attractions.add(new Attraction(R.string.food_papaparaskevas_title, R.string.food_papaparaskevas_description,
                 R.drawable.food_papaparaskevas, R.string.high_cost));
-
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Attraction}s. The
         // adapter knows how to create list items for each item in the list.

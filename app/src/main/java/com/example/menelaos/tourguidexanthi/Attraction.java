@@ -14,13 +14,10 @@ public class Attraction {
     private int mAttractionCost;
 
     // Constant value that represents no cost was provided for this attraction
-    private static final int NO_COST_PROVIDED = -1;
+    private static final int NO_COST_PROVIDED = 0;
 
     // attraction image id
-    private int mImageResourceId = NO_IMAGE_PROVIDED;
-
-    // Constant value that represents no image was provided for this attraction
-    private static final int NO_IMAGE_PROVIDED = -1;
+    private int mImageResourceId;
 
     /**
      * Create a new Attraction object.
@@ -33,7 +30,6 @@ public class Attraction {
         mAttractionName = attractionName;
         mAttractionDescription = attractionDescription;
         mImageResourceId = imageResourceId;
-
     }
 
     /**
@@ -66,18 +62,14 @@ public class Attraction {
         return mImageResourceId;
     }
 
-    // Returns whether or not there is an image for this attraction;
-    public boolean hasImage() {
-        return mImageResourceId != NO_IMAGE_PROVIDED;
-    }
-
     // Return the image resource ID of the attraction.
     public int getCostId() {
         return mAttractionCost;
     }
 
     // Returns whether or not there is a cost for this attraction;
-    public boolean hasCost() { return mAttractionCost != NO_COST_PROVIDED; }
+    public boolean hasCost() {
+        return mAttractionCost != NO_COST_PROVIDED;
+    }
 
 }
-

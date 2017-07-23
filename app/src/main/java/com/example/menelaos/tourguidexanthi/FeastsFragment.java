@@ -9,12 +9,8 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-        /**
-        * {@link Fragment} that displays a list of attractions.
-        */
-
-        public class FeastsFragment extends Fragment {
-
+// {@link Fragment} that displays a list of attractions.
+public class FeastsFragment extends Fragment {
 
     public FeastsFragment() {
         // Required empty public constructor

@@ -111,4 +111,34 @@
             sweets they sell.
         </string>
 
+    <!-- Night Life -->
+
+        <!-- Night Life texts of titles -->
+        <string name="night_life_kivernio_title">Kivernio</string>
+        <string name="night_life_my_club_title">My Club</string>
+        <string name="night_life_dili_dili_title">Dili Dili</string>
+        <string name="night_life_Chokolata_title">Sokolata</string>
+
+        <!-- Night Life texts of descriptions -->
+        <string name="night_life_kivernio_description">
+            "Kivernio" is the most know and populated bar-cafe-club of Xanthi city. Mostly visited by
+            students of the university, but its style is friendly for all ages. Located at the center
+            of the city is a must visit place.
+        </string>
+        <string name="night_life_my_club_description">
+            "My Club" is the biggest club of all Thrace. It only opens at summer but the events it
+            hosts are very crouded and with a finesse. If you visit Xanthi at the end of the summer
+            you surely must spend a night there.
+        </string>
+        <string name="night_life_dili_dili_description">
+            "Dili dili" is one of the most beautiful traditional cafes of Xanthi city. Located at the
+            center of old town offers an old stylish coffee brake for all. It is considered one of the
+            best neo-classical coffee shops of the city.
+        </string>
+        <string name="night_life_Chokolata_description">
+            "Chocolata" caffee is a nice winter coffee-tea shop. It has a large variety of teas, liquid
+            chocolates and liqueurs. A very warm, friendly and classic place to visit the winter to
+            get warmer and chat with friends.
+        </string>
+
 </resources>

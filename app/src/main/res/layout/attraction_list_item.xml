@@ -1,61 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color"
-    android:orientation="vertical">
+    android:background="@color/background_color">
 
     <ImageView
         android:id="@+id/image"
+        style="@style/attraction_image"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:adjustViewBounds="true" />
+        android:layout_height="wrap_content"
+        tools:src="@drawable/intro_image" />
 
-    <LinearLayout
-        android:id="@+id/text_container"
+    <RelativeLayout
+        android:id="@+id/title_template"
+        style="@style/attraction_title"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image">
 
-        <RelativeLayout
-            style="@style/attraction_title"
+        <TextView
+            android:id="@+id/title"
+            style="@style/attraction_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="title" />
+
+        <TextView
+            android:id="@+id/cost"
+            style="@style/attraction_cost_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="cost" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_template">
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/attraction_description_text"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            tools:text="description" />
 
-            <TextView
-                android:id="@+id/title"
-                style="@style/attraction_name_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:text="title"/>
+    </RelativeLayout>
 
-            <TextView
-                android:id="@+id/cost"
-                style="@style/attraction_cost_name_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:text="cost"/>
-
-        </RelativeLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="4">
-
-            <TextView
-                android:id="@+id/description"
-                style="@style/attraction_description_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:text="description"/>
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>

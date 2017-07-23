@@ -16,34 +16,37 @@
         <item name="android:textAlignment">center</item>
     </style>
 
-    <!-- Appearance style for the attraction title -->
+    <!-- Appearance style for the attraction image -->
+    <style name="attraction_image">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_marginTop">@dimen/attraction_image_margin_top</item>
+    </style>
 
+    <!-- Appearance style for the attraction title -->
     <style name="attraction_title">
+        <item name="android:layout_margin">@dimen/attraction_title_margin</item>
         <item name="android:background">@color/intro_text_color</item>
     </style>
 
     <!-- Text appearance style for the intro text -->
     <style name="attraction_name_text">
         <item name="android:layout_alignParentLeft">true</item>
-        <item name="android:textAlignment">viewStart</item>
         <item name="android:layout_centerInParent">true</item>
         <item name="android:singleLine">true</item>
         <item name="android:paddingLeft">@dimen/attraction_name_padding_left</item>
         <item name="android:textColor">@color/background_color</item>
         <item name="android:textSize">@dimen/attraction_name_text_size</item>
-
     </style>
 
     <!-- Text appearance style for the cost text -->
     <style name="attraction_cost_name_text">
         <item name="android:layout_alignParentRight">true</item>
-        <item name="android:textAlignment">viewEnd</item>
         <item name="android:layout_centerInParent">true</item>
         <item name="android:singleLine">true</item>
         <item name="android:paddingRight">@dimen/attraction_cost_padding_right</item>
         <item name="android:textColor">@color/background_color</item>
         <item name="android:textSize">@dimen/attraction_name_text_size</item>
-
     </style>
 
     <!-- Text appearance style for the description text -->
@@ -51,6 +54,7 @@
         <item name="android:layout_alignParentEnd">true</item>
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:paddingRight">@dimen/attraction_description_padding_right</item>
+        <item name="android:paddingBottom">@dimen/attraction_title_margin</item>
         <item name="android:textColor">@color/intro_text_color</item>
         <item name="android:textSize">@dimen/attraction_description_text_size</item>
         <item name="android:textAlignment">viewEnd</item>
