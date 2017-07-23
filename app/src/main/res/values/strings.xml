@@ -1,0 +1,114 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Xanthi Tour Guide</string>
+
+    <!-- Top intro text -->
+    <string name="intro_text_top"><b>Xanthi...</b></string>
+    <!-- Image text description -->
+    <string name="intro_image_text_description">Photo of Xanthi</string>
+    <!-- Bottom intro text -->
+    <string name="intro_text_bottom"><b>...tour guide!!</b></string>
+
+    <!-- Tab names -->
+    <string name="tab_attraction">Attractions</string>
+    <string name="tab_monuments">Monuments</string>
+    <string name="tab_food">Food</string>
+    <string name="tab_night_life">Night Life</string>
+
+    <!-- SITES -->
+
+        <!-- Sites text of titles -->
+        <string name="site_old_town_title">Old Town of Xanthi</string>
+        <string name="site_clock_tower_title">Clock Tower</string>
+        <string name="site_municipal_art_gallery_title">Municipal Art Gallery</string>
+        <string name="site_kosinthos_river_title">Kosinthos River</string>
+        <string name="site_nestos_river_title">Nestos River</string>
+
+        <!-- Sites text of descriptions -->
+        <string name="site_old_town_description">
+            Old town of Xanthi was built in 1829 after an earthquake that destroyed the older town. It
+            is located at the north of the city and it keeps the old style of the buildings till nowadays.
+        </string>
+        <string name="site_clock_description">
+            Clock Tower is the symbol of the Xanthi city. It is located at the center plaza and stands
+            there for ages.
+        </string>
+        <string name="site_municipal_art_gallery_description">
+            Municipal Art Gallery is located at the centre of the old town in an impressive mansion.
+            Free admission is an advantage for someone who may want to visit and get some knowledge
+            about the history of Xanthi.
+        </string>
+        <string name="site_kosinthos_river_description">
+            Kosinthos river is the river that passes through the city of Xanthi. His geographical place
+            with all the old bridges make him a very nice play to visit.
+        </string>
+        <string name="site_nestos_river_description">
+            Nestos river is the biggest river that passes through Thrace. It is located near Xanthi city
+            and attracts many wild species of birds and wolfs. It is worth to visit with organized
+            "extreme adventure" groups.
+        </string>
+
+    <!-- FEASTS -->
+
+        <!-- Feasts text of titles -->
+        <string name="feasts_of_carnival_title">Carnival</string>
+        <string name="feasts_0f_old_town_title">Clock Tower</string>
+        <string name="feasts_of_youth_title">Municipal Art Gallery</string>
+
+        <!-- Sites text of descriptions -->
+        <string name="feasts_of_carnival_description">
+            The carnival of Xanthi is the second biggest carnival parade in Greece after that one of
+            Patras. All the people of the nearby cities gather to celebrate and burn the Joker in
+            order to seal the end of the feast.
+        </string>
+        <string name="feasts_of_old_town_description">
+            The feast of old Town takes place at the old city. All the dancing organizations of Xanthi
+            take part and dance the traditional dances in order to celebrate the liberty of the city
+            from the second world war.
+        </string>
+        <string name="feasts_of_youth_description">
+            The feasts of youth are help in the main plaza of Xanthi. There the youth musical band of
+            the musical school of Xanthi sings songs of the Greek music artist "Manos Hatzidakis" in
+            order to salute his actions and the Greek rebellion.
+        </string>
+
+    <!-- Cost strings -->
+    <string name="low_cost">€ -> €€</string>
+    <string name="high_cost">€€ -> €€€</string>
+
+    <!-- Food -->
+
+        <!-- Feasts text of titles -->
+        <string name="food_palaia_poli_title">Palia Poli</string>
+        <string name="food_to_pilima_title">To Pilima</string>
+        <string name="food_to_vareli_title">To Vareli</string>
+        <string name="food_nea_ellas_title">Nea Ellas</string>
+        <string name="food_papaparaskevas_title">Papaparaskevas</string>
+
+        <!-- Sites text of descriptions -->
+        <string name="food_palaia_poli_description">
+            "Palaia poli" is the most know tavern of Xanthi city. Very good quality of traditional Greek
+            and Turkish food. Very nice and friendly service. It is well know for the kebab food.
+        </string>
+        <string name="food_to_pilima_description">
+            "To Pilima" is a tavern outside of the Xanthi city. Easy to find and very good quality of
+            food. It has a variety of foods but it is very fabled for the wild animals that they hunt
+            and cook extremely good.
+        </string>
+        <string name="food_to_vareli_description">
+            "To Vareli" is one tavern inside the old town of Xanthi city. It is considered one of the
+            most "in" and quality (concerning the food) places around the city. Best known for the
+            steaks they serve.
+        </string>
+        <string name="food_nea_ellas_description">
+            "Nea Ellas" is a traditional patisserie shop widely know around whole Greece. The sweets
+            they produce are from the tradition of Greece and Turkey and are very tasty as they are
+            created with biological ingredients.
+        </string>
+        <string name="food_papaparaskevas_description">
+            "Papaparaskevas" is also one of the most well known patisseries around Greece. The famous
+            "kariokes" is a must to taste. Also, "Papaparaskevas" is very well known for the chocolate
+            sweets they sell.
+        </string>
+
+</resources>
