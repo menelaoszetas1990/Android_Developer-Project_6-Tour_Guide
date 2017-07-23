@@ -11,7 +11,7 @@
 
     <!-- Tab names -->
     <string name="tab_attraction">Attractions</string>
-    <string name="tab_monuments">Feasts</string>
+    <string name="tab_feasts">Feasts</string>
     <string name="tab_food">Food</string>
     <string name="tab_night_life">Night Life</string>
 
